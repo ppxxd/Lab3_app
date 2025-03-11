@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <!-- Код валюты (например, USD) -->
+    <TextView
+            android:id="@+id/currencyCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="USD"
+            android:textStyle="bold"/>
+
+    <!-- Название валюты (например, Доллар США) -->
+    <TextView
+            android:id="@+id/currencyName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Доллар США"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+    <!-- Курс валюты -->
+    <TextView
+            android:id="@+id/rate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="75.5"
+            android:gravity="end"/>
+</LinearLayout>
